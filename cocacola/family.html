@@ -1,0 +1,1048 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta, title, link, script, style 순으로 정렬 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coca-Cola</title>
+    <link rel="shortcut icon" href="img/common/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2:900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/keyframes.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/family.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header" class="family">
+        <div class="inner">
+          <h1 class="logo">
+            <a href="index.html">
+              <span class="blind">coca-cola</span>
+            </a>
+          </h1>
+          <ul class="gnb">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="family.html">FAMILY</a></li>
+          </ul>
+          <a href="#" class="btn share">SHARE</a>
+        </div>
+      </div>
+      <div class="sec_product">
+        <div class="drag_container">
+          <ul class="product_list">
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_classic.png"
+                    alt="Coca-Cola Original"
+                  />
+                  <img src="img/family/can_classic.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_zero.png"
+                    alt="Coca-Cola Zero Sugar"
+                  />
+                  <img src="img/family/can_zero.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_life.png"
+                    alt="Coca-Cola Life"
+                  />
+                  <img src="img/family/can_life.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_diet.png"
+                    alt="Diet Coke"
+                  />
+                  <img src="img/family/can_diet.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_cherry.png"
+                    alt="Cherry Coke"
+                  />
+                  <img src="img/family/can_cherry.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_powerade.png"
+                    alt="Powerade"
+                  />
+                  <img src="img/family/can_powerade.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_fanta.png"
+                    alt="Fanta"
+                  />
+                  <img src="img/family/can_fanta.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_sprite.png"
+                    alt="Sprite"
+                  />
+                  <img src="img/family/can_sprite.png" alt="" class="can" />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_minute_maid.png"
+                    alt="Minute Maid"
+                  />
+                  <img
+                    src="img/family/can_minute_maid.png"
+                    alt=""
+                    class="can"
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="drag_item">
+                <div class="product_item">
+                  <img
+                    class="product_logo"
+                    src="img/family/logo_vitaminwater.png"
+                    alt="vitaminwater"
+                  />
+                  <img
+                    src="img/family/can_vitaminwater.png"
+                    alt=""
+                    class="can"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="drop_area">
+            <ul class="popup_area">
+              <li class="popup_wrap">
+                <!--popup_wrap -->
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img">
+                      <img
+                        src="img/family/drink_classic.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Original</b>Coca-Cola is the most<br />popular and
+                        best-known<br />brand in the world!
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_can_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_glass_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_large_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CARAMEL
+                          COLOR, PHOSPHORIC ACID, NATURAL FLAVORS, CAFFEINE.
+                          Caffeine Content: 34 mg/12 fl oz This product includes
+                          ingredients sourced from genetically engineered (GE)
+                          crops.
+                        </p>
+                      </div>
+
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>Original</li>
+                          <li>Cherry</li>
+                          <li>Vanilla</li>
+                          <li>Georgia Peach</li>
+                          <li>Raspberry</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_classic.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <!--popup_wrap -->
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img">
+                      <img
+                        src="img/family/drink_zero.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Zero Sugar</b>Great Coca-Cola taste<br />with zero
+                        sugar<br />and zero calories.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_can_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_glass_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID,
+                          ASPARTAME, POTASSIUM BENZOATE (TO PROTECT TASTE),
+                          NATURAL FLAVORS, POTASSIUM CITRATE, ACESULFAME
+                          POTASSIUM, CAFFEINE. PHENYLKETONURICS: CONTAINS
+                          PHENYLALANINE.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_zero.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img">
+                      <img
+                        src="img/family/drink_life.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Coke Life</b>reduced-calorie cola<br />sweetened with
+                        a blend of <br />sugar and stevia leaf extract.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_can_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_glass_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, CANE SUGAR, CARAMEL COLOR, NATURAL
+                          FLAVORS, PHOSPHORIC ACID, POTASSIUM BENZOATE (TO
+                          PROTECT TASTE), CAFFEINE, *STEVIA LEAF EXTRACT
+                          (STEVIOL GLYCOSIDES PROCESSED FROM STEVIA LEAF). This
+                          product includes ingredients sourced from genetically
+                          engineered (GE) crops, commonly known as GMOs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_life.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img">
+                      <img
+                        src="img/family/drink_diet.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Diet Coke</b>Enjoy the great taste<br />you
+                        love—anytime<br />you want it !
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_can_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_large_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, CARAMEL COLOR, ASPARTAME, PHOSPHORIC
+                          ACID, POTASSIUM BENZOATE (TO PROTECT TASTE), NATURAL
+                          FLAVORS, CITRIC ACID.PHENYLKETONURICS: CONTAINS
+                          PHENYLALANINE.This product includes ingredients
+                          sourced from genetically engineered (GE) crops,
+                          commonly known as GMOs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_diet.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img">
+                      <img
+                        src="img/family/drink_cherry.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Cherry Coke</b>offers real cola taste <br />with
+                        cherry flavor and<br />zero calories.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_can_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, CARAMEL COLOR, PHOSPHORIC ACID,
+                          ASPARTAME, POTASSIUM BENZOATE (TO PROTECT TASTE),
+                          NATURAL FLAVORS, ACESULFAME POTASSIUM, POTASSIUM
+                          CITRATE, CAFFEINE.PHENYLKETONURICS: CONTAINS
+                          PHENYLALANINE. Caffeine Content: 34mg/12 fl oz This
+                          product includes ingredients sourced from genetically
+                          engineered (GE) crops, commonly known as GMOs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_cherry.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img" style="width: 200px; margin: 0 20px">
+                      <img
+                        src="img/family/drink_powerade.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Powerade</b>Naturally flavored <br />sports drink
+                        with<br />
+                        B3, B6 and B12.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_sport_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_sport_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          Water, High Fructose Corn Syrup, Less than 0.5% of:,
+                          Citric Acid, Salt, Magnesium Chloride, Calcium
+                          Chloride, Monopotassium Phosphate, Natural Flavors,
+                          Modified Food Starch, Calcium Disodium EDTA (to
+                          protect color), Medium Chain Triglycerides, Sucrose
+                          Acetate Isobutyrate, Vitamin B3, Vitamin B6, Vitamin
+                          B12, Blue 1.
+                        </p>
+                      </div>
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>Mountain Berry</li>
+                          <li>Lemonade</li>
+                          <li>Fruit Punch</li>
+                          <li>Kiwi Pineapple</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_powerade.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img" style="width: 200px; margin: 0 20px">
+                      <img
+                        src="img/family/drink_fanta.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>FANTA</b>It has a fantastic<br />variety of fruit
+                        flavors<br />so let's choose your own!
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_pet_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_can_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_glass_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_large_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CITRIC
+                          ACID, SODIUM BENZOATE (TO PROTECT TASTE), NATURAL
+                          FLAVORS, MODIFIED FOOD STARCH, SODIUM POLYPHOSPHATES,
+                          GLYCEROL ESTER OF ROSIN, YELLOW 6, RED 40. Caffeine
+                          Content: CAFFEINE FREE. This product includes
+                          ingredients sourced from genetically engineered (GE)
+                          crops.
+                        </p>
+                      </div>
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>Orange</li>
+                          <li>Grape</li>
+                          <li>Pineapple</li>
+                          <li>Strawberry</li>
+                          <li>Grapefruit</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_fanta.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img" style="width: 200px; margin: 0 20px">
+                      <img
+                        src="img/family/drink_sprite.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>SPRITE</b>You make me happy<br />You are so funny<br />than
+                        anyone in the world.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_pet_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_can_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_glass_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_cup_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_pet_large_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CARBONATED WATER, HIGH FRUCTOSE CORN SYRUP, CITRIC
+                          ACID, NATURAL FLAVORS, SODIUM CITRATE, SODIUM BENZOATE
+                          (TO PROTECT TASTE). Caffeine Content: CAFFEINE FREE
+                        </p>
+                      </div>
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>Original</li>
+                          <li>Cranberry</li>
+                          <li>Tropical Mix</li>
+                          <li>Strawberry</li>
+                          <li>Tropic Berry</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_sprite.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img" style="width: 200px; margin: 0 20px">
+                      <img
+                        src="img/family/drink_minute_maid.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>Minute Maid</b>but that is what <br />makes it so
+                        good.<br />This is GOOD.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_carton_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_jug_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          CONTAINS PURE FILTERED WATER, HIGH FRUCTOSE CORN
+                          SYRUP, PEAR, PINEAPPLE AND ORANGE JUICES FROM
+                          CONCENTRATE, LESS THAN 0.5% OF: PASSIONFRUIT JUICE
+                          FROM CONCENTRATE, CITRIC ACID (PROVIDES TARTNESS),
+                          SUGAR, NATURAL FLAVORS, MODIFIED CORNSTARCH, GLYCEROL
+                          ESTER OF ROSIN, POTASSIUM SORBATE AND SODIUM BENZOATE
+                          AND SODIUM HEXAMETAPHOSPHATE AND CALCIUM DISODIUM EDTA
+                          (TO PROTECT TASTE), RED #40, GREEN #3.
+                        </p>
+                      </div>
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>Original</li>
+                          <li>Peach</li>
+                          <li>Watermelon</li>
+                          <li>Berry Punch</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_minute_maid.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+              <li class="popup_wrap">
+                <div class="popup">
+                  <div class="popup_cnt">
+                    <div class="drink_img" style="width: 200px; margin: 0 20px">
+                      <img
+                        src="img/family/drink_vitaminwater.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <div class="popup_info">
+                      <div class="popup_tit">
+                        <b>VITAMINWATER</b>meet your<br />new workout partner<br />just
+                        do not ask it to spot you.
+                      </div>
+                      <ul class="bottle_list">
+                        <li>
+                          <img
+                            src="img/family/size_bottle_red.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                        <li>
+                          <img
+                            src="img/family/size_bottle_grey.png"
+                            alt=""
+                            class="full_img"
+                          />
+                        </li>
+                      </ul>
+                      <div class="ingredient_info">
+                        <h3>INGREDIENTS</h3>
+                        <p>
+                          REVERSE OSMOSIS WATER, CRYSTALLINE FRUCTOSE, CANE
+                          SUGAR, LESS THAN 0.5% OF: VITAMIN C (ASCORBIC ACID),
+                          CITRIC ACID, NATURAL FLAVORS, DRAGONFRUIT EXTRACT,
+                          VEGETABLE JUICE (COLOR), MAGNESIUM LACTATE AND CALCIUM
+                          LACTATE AND POTASSIUM PHOSPHATE (ELECTROLYTE SOURCES),
+                          TAURINE, VITAMIN B5 (CALCIUM PANTOTHENATE).
+                        </p>
+                      </div>
+                      <div class="flavor_list">
+                        <h3>FLAVOR</h3>
+                        <ul>
+                          <li>power-c</li>
+                          <li>energy</li>
+                          <li>refresh</li>
+                          <li>revive</li>
+                          <li>xxx</li>
+                          <li>essential</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="table_wrap">
+                      <h5 class="tbl_tit">NUTRITION TABLE</h5>
+                      <img
+                        src="img/family/table_vitaminwater.png"
+                        alt=""
+                        class="full_img"
+                      />
+                    </div>
+                    <a href="#" class="close_btn"
+                      ><img
+                        src="img/family/btn_close.png"
+                        alt="팝업 닫기"
+                        class="full_img"
+                    /></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="drop_guide on">
+              <label class="guide_txt">
+                <div class="txt_inner">
+                  <b>Drag</b><br />
+                  <span>your</span> favorite<br />
+                  <b>here!</b>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec_story">
+        <img src="img/family/story_visual.png" alt="" class="full_img" />
+        <div class="story_info">
+          <h3>The World is Changing. So Are We.</h3>
+          <h4>By: The Coca-Cola Company Nov 20 2017</h4>
+          <p>
+            For years, we’ve given you the drinks you want and love. And as
+            times change, we want to grow and change with you.<br />
+            That’s why we are listening carefully and doing more. We are putting
+            you at the center of all we do. Your tastes and needs come first.<br />
+            We call this Our Way Forward.
+          </p>
+          <h4>How we’re changing</h4>
+          <h5>Reducing sugar</h5>
+          <p>
+            While sugar in moderation is fine, too much sugar isn’t good for
+            anyone. That’s why we’re rethinking many of our recipes.
+            <span>Coca-Cola Life</span>,<br />for example, is sweetened with a
+            blend of cane sugar and <span>Stevia leaf extract</span>. It has 35%
+            fewer calories and less sugar than <span>Coca-Cola</span>.
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="inner">
+          <div class="footer_sns">
+            <h4>CONNECT WITH US</h4>
+            <ul class="sns_list">
+              <li>
+                <a href="https://ko-kr.facebook.com/Coca-Cola/" target="_blank"
+                  ><img
+                    src="img/common/sns_facebook.png"
+                    alt="Facebook"
+                    class="full_img"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/coke.style/?hl=ko"
+                  target="_blank"
+                  ><img
+                    src="img/common/sns_instagram.png"
+                    alt="Instagram"
+                    class="full_img"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCzCxSb_RYZuaiaP3u9QNR_A"
+                  target="_blank"
+                  ><img
+                    src="img/common/sns_youtube.png"
+                    alt="YouTube"
+                    class="full_img"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/cocacola_korea" target="_blank"
+                  ><img
+                    src="img/common/sns_twitter.png"
+                    alt="Twitter"
+                    class="full_img"
+                /></a>
+              </li>
+            </ul>
+            <h2 class="footer_logo">
+              <img
+                src="img/common/logo_footer.png"
+                alt="Coca-Cola"
+                class="full_img"
+              />
+            </h2>
+          </div>
+          <ul class="footer_menu">
+            <li>EXPLORE</li>
+            <li>COCA-COLA</li>
+            <li>COKE ZERO SUGAR</li>
+            <li>COKE LIFE</li>
+            <li>DIET COKE</li>
+            <li>REWARDS</li>
+            <li>SIP &amp; SCAN FAQS</li>
+          </ul>
+          <ul class="footer_menu">
+            <li>COKE IN THE USA</li>
+            <li>COCA-COLA JOURNEY</li>
+            <li>SHARE A COKE</li>
+            <li>WORLD OF COCA-COLA</li>
+            <li>COCA-COLA STORE</li>
+            <li>COCA-COLA APP</li>
+          </ul>
+          <ul class="footer_menu">
+            <li>RESOURCES</li>
+            <li>CAREERS</li>
+            <li>COMPANY INFORMATION</li>
+            <li>PARTICIPATING BRANDS</li>
+          </ul>
+        </div>
+        <p class="copyright">
+          &#169; 2022 SIMJUHYE-Portfolio. ALL RIGHTS RESERVED
+        </p>
+        <ul class="footer_util">
+          <li>CONTACT US</li>
+          <li>FAQS</li>
+          <li>TERMS OF USE</li>
+          <li>RULES</li>
+          <li>PRIVACY</li>
+          <li>MOBILE TERMS &amp; CONDITIONS</li>
+          <li>ABOUT OUR ADS</li>
+          <li>SITEMAP</li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/common.js"></script>
+    <script src="./js/family.js"></script>
+  </body>
+</html>
